@@ -1,0 +1,12 @@
+{
+  "name": "typing-master",
+  "version": "1.0.0",
+  "description": "Nilupul Rathnayake Typing Master: typing tests, multiplayer races, Google and email login, owner dashboard. No npm dependencies.",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning test/run.js"
+  }
+}
